@@ -438,7 +438,7 @@ export default {
                     {
                         id: 'node9',
                         information: 0,
-                        img: zj,
+                        img: jhj2,
                         text: 'node9',
                         comboId: 'comboB',
                         x: 580.2722574670867,
