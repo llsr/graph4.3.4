@@ -465,7 +465,7 @@ export default {
                     {
                         id: 'node7',
                         information: 0,
-                        img: zj,
+                        img: jhj3,
                         comboId: 'comboB',
                         text: 'node7',
                         x: 569.2722574670867,
@@ -474,7 +474,7 @@ export default {
                     {
                         id: 'node10',
                         information: 0,
-                        img: zj,
+                        img: zjjhj3,
                         text: 'node10',
                         comboId: 'comboC',
                         x: 470.1229854405311,
