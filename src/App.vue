@@ -32,6 +32,7 @@
 </template>
 
 <script>
+import picture from './assets/img/logo.png';
 export default {
     created(){
         // this.getShowInitData();
@@ -413,7 +414,8 @@ export default {
                     {
                         id: 'node6',
                         information: 8,
-                        img: 'https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg?max_age=31536000',
+                        // img: 'https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg?max_age=31536000',
+                        img: picture,
                         comboId: 'comboC',
                         text: 'node6',
                         x: 384.1229854405311,
