@@ -59,13 +59,13 @@ export default {
     methods: {
         customNode() {
             G6.registerNode(
-                'image-node',
+                'image',
                 {
                     drawShape: function drawShape(cfg, group) {
                         const image = group.addShape('image', {
                             attrs: {
-                                width: 40,
-                                height: 40,
+                                width: 80,
+                                height: 80,
                                 x: 0,
                                 y: 0,
                                 img: cfg.img
@@ -318,8 +318,8 @@ export default {
                     }
                 },
                 defaultNode: {
-                    type: 'image-node',
-                    size: 26,
+                    type: 'image',
+                    size: 400,
                     labelCfg: {
                         position: 'bottom'
                     }

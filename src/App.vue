@@ -33,6 +33,9 @@
 
 <script>
 import picture from './assets/img/logo.png';
+import jhj3 from './assets/img/jhj3.png';
+import jhj from './assets/img/jhj.png';
+import zj from './assets/img/zj.png';
 export default {
     created(){
         // this.getShowInitData();
@@ -46,8 +49,8 @@ export default {
                     img: item.img,
                     comboId: item.comboId,
                     text: item.text,
-                    x: this.randomNum(1800,500),
-                    y: this.randomNum(1800,500)
+                    x: this.randomNum(1200,500),
+                    y: this.randomNum(1200,500)
                 }
             })
         },
@@ -55,8 +58,10 @@ export default {
             switch (arguments.length) {
                 case 1:
                     return parseInt(Math.random() * minNum + 1, 10);
+                    break
                 case 2:
                     return parseInt(Math.random() * (maxNum - minNum + 1) + minNum, 10);
+                    break
                 default:
                     return 0;
             }
@@ -415,7 +420,7 @@ export default {
                         id: 'node6',
                         information: 8,
                         // img: 'https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg?max_age=31536000',
-                        img: picture,
+                        img: zj,
                         comboId: 'comboC',
                         text: 'node6',
                         x: 384.1229854405311,
@@ -424,7 +429,7 @@ export default {
                     {
                         id: 'node1',
                         information: 0,
-                        img: 'https://yyb.gtimg.com/aiplat/page/product/visionimgidy/img/demo6-16a47e5d31.jpg?max_age=31536000',
+                        img: zj,
                         text: 'node1',
                         comboId: 'comboA',
                         x: 300.43342222459773,
@@ -433,7 +438,7 @@ export default {
                     {
                         id: 'node9',
                         information: 0,
-                        img: 'https://yyb.gtimg.com/aiplat/page/product/visionimgidy/img/demo6-16a47e5d31.jpg?max_age=31536000',
+                        img: zj,
                         text: 'node9',
                         comboId: 'comboB',
                         x: 580.2722574670867,
@@ -442,7 +447,7 @@ export default {
                     {
                         id: 'node2',
                         information: 6,
-                        img: 'https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg?max_age=31536000',
+                        img: zj,
                         text: 'node2',
                         comboId: 'comboA',
                         x: 115.43342222459773,
@@ -451,7 +456,7 @@ export default {
                     {
                         id: 'node3',
                         information: 0,
-                        img: 'https://yyb.gtimg.com/aiplat/page/product/visionimgidy/img/demo6-16a47e5d31.jpg?max_age=31536000',
+                        img: jhj3,
                         text: 'node3',
                         comboId: 'comboA',
                         x: 275.43342222459773,
@@ -460,7 +465,7 @@ export default {
                     {
                         id: 'node7',
                         information: 0,
-                        img: 'https://yyb.gtimg.com/aiplat/page/product/visionimgidy/img/demo6-16a47e5d31.jpg?max_age=31536000',
+                        img: zj,
                         comboId: 'comboB',
                         text: 'node7',
                         x: 569.2722574670867,
@@ -469,7 +474,7 @@ export default {
                     {
                         id: 'node10',
                         information: 0,
-                        img: 'https://yyb.gtimg.com/aiplat/page/product/visionimgidy/img/demo6-16a47e5d31.jpg?max_age=31536000',
+                        img: zj,
                         text: 'node10',
                         comboId: 'comboC',
                         x: 470.1229854405311,
